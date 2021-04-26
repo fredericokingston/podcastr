@@ -25,7 +25,7 @@
   footer {
     align-self: stretch;
 
-    &.empty {
+    &.empty .progress {
       opacity: 0.5;
     }
   }
@@ -103,6 +103,15 @@
     border: 0;
     font-size: 0;
 
+    &:disabled {
+      cursor: default;
+      opacity: 0.5;
+    }
+
+    &:hover:not(:disabled) {
+      filter: brightness(0.7)
+    }
+
     &.playButton {
       width: 4rem;
       height: 4rem;
@@ -111,17 +120,10 @@
 
       transition: filter 0.2s;
 
-      &:hover {
+      &:hover:not(:disabled) {
         filter: brightness(0.95);
       }
     }
 
-    &:disabled{
-      cursor: default;
-    }
-
-    &:hover:not(:disabled) {
-      filter: brightness(0.7)
-    }
   }
 }
