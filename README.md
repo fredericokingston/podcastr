@@ -19,12 +19,12 @@ Para rodar a aplicação rode:
 ### `yarn dev`
 
 ## Técnologias usadas
-- [] Typescrip
-- [] React JS
-- [] NextJS
-- [] Sass
+- [ ] Typescrip
+- [ ] React JS
+- [ ] NextJS
+- [ ] Sass
 
 ## Melhorias Futuras
-- [] Responsividade
-- [] Dark Mode
-- [] PWA
+- [ ] Responsividade
+- [ ] Dark Mode
+- [ ] PWA
